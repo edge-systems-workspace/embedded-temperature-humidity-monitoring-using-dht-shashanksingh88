@@ -25,8 +25,8 @@ void setup() {
 
     // TODO 6:
     // Print a system initialization message
-    //Serial.println("DHT11 Temperature and Humidity Monitoring System");
-    //Serial.println("Initializing...");
+    Serial.println("DHT11 Temperature and Humidity Monitoring System");
+    Serial.println("Initializing...");
     delay(2000);
 }
 
