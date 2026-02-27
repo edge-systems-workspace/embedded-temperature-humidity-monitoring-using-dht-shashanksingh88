@@ -38,7 +38,7 @@ void loop() {
 
     // TODO 8:
     // Read temperature value from sensor
-    //float temperature = dht.readTemperature();
+    float temperature = dht.readTemperature();
 
     // TODO 9:
     // Check if either reading failed using isnan()
