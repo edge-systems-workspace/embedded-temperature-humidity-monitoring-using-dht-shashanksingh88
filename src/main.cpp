@@ -42,9 +42,9 @@ void loop() {
 
     // TODO 9:
     // Check if either reading failed using isnan()
-    //if (isnan(humidity) || isnan(temperature)) {
-    //    Serial.println("Failed to read from DHT sensor!");
-    //    return;
+    if (isnan(humidity) || isnan(temperature)) {
+        Serial.println("Failed to read from DHT sensor!");
+        return;
     }
 
     // TODO 10:
